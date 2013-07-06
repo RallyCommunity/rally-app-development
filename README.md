@@ -24,5 +24,13 @@ Getting Started
 
 You will need to (if you have not already done so) create accounts on github and cloud9. Both are free for basic use. 
 
+GitHub
+
+- Create a new repository (you will need to do so for each app that you create) on github.
+
+![github repository](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-1.png)
+
+
+
 
 
