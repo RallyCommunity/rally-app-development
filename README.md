@@ -26,9 +26,45 @@ You will need to (if you have not already done so) create accounts on github and
 
 GitHub
 
-- Create a new repository (you will need to do so for each app that you create) on github.
+- Create a new repository (you will need to do so for each app that you create) on github. Be sure to check the box to create a readme.
 
 ![github repository](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-1.png)
+
+
+Cloud 9
+
+- Go to the Cloud 9 Dashboard (in your profile activate the github service).
+
+![github cloud9](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_6_13_1_56_PM.png)
+
+- Find your just created github repository in the "Projects On Github" section of the project list. 
+
+![github project](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_6_13_1_59_PM.png)
+
+- Select the project, and click "Clone To Edit"
+
+![clone project](https://github.com/wrackzone/rally-app-development/blob/master/img/Screenshot_7_6_13_1_59_PM-1.png)
+
+- When the project is created, click "Begin Editing" to open the project.
+
+Rally-App-Builder
+
+- rally-app-builder is installed directly into your Cloud9 project workspace using node. From the "Terminal" window in your project type the following command.
+
+![node install rally-app-builder](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-7.png)
+
+- Once installed you initialize your Rally app with the following command 
+
+![init rally-app-builder](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-9.png)
+
+- This will create a skeleton project.
+
+![init rally-app-builder](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-10.png)
+
+
+
+
+
 
 
 
