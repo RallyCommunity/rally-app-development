@@ -98,7 +98,7 @@ You will need to (if you have not already done so) create accounts on github and
 
 - (5) You can now link to the app.html in the deploy directory.
 
-![push changes](https://raw.github.com/wrackzone/rally-app-development/master/img/deploy-app-html.png)
+![push changes](https://raw.github.com/wrackzone/rally-app-development/master/img/deploy-app-html.jpg)
 
 
 
