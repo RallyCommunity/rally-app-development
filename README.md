@@ -75,7 +75,7 @@ You will need to (if you have not already done so) create accounts on github and
 
 - (3) 
 
-![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_3_13_2_52_PM-2.jpg)
+![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_3_13_2_53_PM-2.jpg)
 
 
 **[5] Building the App and pushing to github**
