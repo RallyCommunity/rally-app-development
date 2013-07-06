@@ -3,35 +3,35 @@ rally-app-development
 
 A tutorial for creating a development environment for Rally Apps
 
-Introduction
+**Introduction**
 
 The purpose of this guide is to help you create a productive environment for developing and testing Rally apps. It is aimed at those who might not have a lot of development experience or are not a full time member of a development team.
 
-Principles
+**Principles**
 
 - Comprehensive and collaborative source control in an environment that makes it easy to share and discovery your work.
 - Short feedback loops. Be able to test your app with real data immediately after making changes.
 - Minimal or no requirement to install software locally.
 - Consistent and standard approach.
 
-Components
+**Components**
 
 - Rally-App-Builder https://github.com/RallyApps/rally-app-builder
 - Cloud9IDE https://c9.io/
 - GitHub https://github.com/
 
-Getting Started
+**Getting Started**
 
 You will need to (if you have not already done so) create accounts on github and cloud9. Both are free for basic use. 
 
-1. GitHub
+**[1] GitHub**
 
 - (1) Create a new repository (you will need to do so for each app that you create) on github. Be sure to check the box to create a readme.
 
 ![github repository](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-1.png)
 
 
-2. Cloud 9
+**[2] Cloud 9**
 
 - (1) Go to the Cloud 9 Dashboard (in your profile activate the github service).
 
@@ -47,7 +47,7 @@ You will need to (if you have not already done so) create accounts on github and
 
 - (4) When the project is created, click "Begin Editing" to open the project.
 
-3. Rally-App-Builder
+**[3] Rally-App-Builder**
 
 - (1) rally-app-builder is installed directly into your Cloud9 project workspace using node. From the "Terminal" window in your project type the following command.
 
@@ -62,7 +62,7 @@ You will need to (if you have not already done so) create accounts on github and
 ![init rally-app-builder](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-10.png)
 
 
-4. Making changes to and testing your app
+**[4] Making changes to and testing your app**
 
 - (1) Edit App.js file, the sample below will add a button to your app.
 
@@ -78,7 +78,7 @@ You will need to (if you have not already done so) create accounts on github and
 ![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_3_13_2_52_PM-2.jpg)
 
 
-5. Building the App and pushing to github
+**[5] Building the App and pushing to github**
 
 - (1) Use the following command to build the app. This will generate a new app.html file in the deploy directory. You can share a link to this file to distribute it and the contents of this file can be installed as a custom html app in Rally.
 
@@ -86,7 +86,7 @@ You will need to (if you have not already done so) create accounts on github and
 
 - (2) Add the code to github
 
-![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/git-add.png)
+![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/git-add.jpg)
 
 - (3) Commit to github
 
@@ -99,12 +99,6 @@ You will need to (if you have not already done so) create accounts on github and
 - (5) You can now link to the app.html in the deploy directory.
 
 ![push changes](https://raw.github.com/wrackzone/rally-app-development/master/img/deploy-app-html.png)
-
-
-
-
-
-
 
 
 
