@@ -66,6 +66,46 @@ You will need to (if you have not already done so) create accounts on github and
 
 - (1) Edit App.js file, the sample below will add a button to your app.
 
+![code changes](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_3_13_2_52_PM.jpg)
+
+- (2) Preview the app-debug.html file to see changes immediately. Note you can also copy the url from the preview pane into a new browser window if you would rather see your app fullscreen (also, once opened you only have to hit Refresh to immediately see changes to your app). Finally, log in to Rally in another tab to test apps which access Rally data.
+
+![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_3_13_2_52_PM-1.jpg)
+
+
+- (3) 
+
+![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_3_13_2_52_PM-2.jpg)
+
+
+5. Building the App and pushing to github
+
+- (1) Use the following command to build the app. This will generate a new app.html file in the deploy directory. You can share a link to this file to distribute it and the contents of this file can be installed as a custom html app in Rally.
+
+![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-11.png)
+
+- (2) Add the code to github
+
+![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/git-add.png)
+
+- (3) Commit to github
+
+![commit changes](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-12.png)
+
+- (4) Push changes back to github repostiory
+
+![push changes](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-13.png)
+
+- (5) You can now link to the app.html in the deploy directory.
+
+![push changes](https://raw.github.com/wrackzone/rally-app-development/master/img/deploy-app-html.png)
+
+
+
+
+
+
+
 
 
 
