@@ -16,5 +16,13 @@ Principles
 
 Components
 
+- Rally-App-Builder https://github.com/RallyApps/rally-app-builder
+- Cloud9IDE https://c9.io/
+- GitHub https://github.com/
+
+Getting Started
+
+You will need to (if you have not already done so) create accounts on github and cloud9. Both are free for basic use. 
+
 
 
