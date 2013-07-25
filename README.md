@@ -25,6 +25,7 @@ The purpose of this guide is to help you create a productive environment for dev
 You will need to (if you have not already done so) create accounts on github and cloud9. Both are free for basic use. 
 
 **[1] GitHub**
+--------------
 
 - (1) Create a new repository (you will need to do so for each app that you create) on github. Be sure to check the box to create a readme.
 
