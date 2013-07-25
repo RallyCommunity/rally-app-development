@@ -33,6 +33,7 @@ You will need to (if you have not already done so) create accounts on github and
 
 
 **[2] Cloud 9**
+---------------
 
 - (1) Go to the Cloud 9 Dashboard (in your profile activate the github service).
 
@@ -49,6 +50,7 @@ You will need to (if you have not already done so) create accounts on github and
 - (4) When the project is created, click "Begin Editing" to open the project.
 
 **[3] Rally-App-Builder**
+-------------------------
 
 - (1) rally-app-builder is installed directly into your Cloud9 project workspace using node. From the "Terminal" window in your project type the following command.
 
@@ -64,6 +66,7 @@ You will need to (if you have not already done so) create accounts on github and
 
 
 **[4] Making changes to and testing your app**
+----------------------------------------------
 
 - (1) Edit App.js file, the sample below will add a button to your app.
 
@@ -80,6 +83,7 @@ You will need to (if you have not already done so) create accounts on github and
 
 
 **[5] Building the App and pushing to github**
+----------------------------------------------
 
 - (1) Use the following command to build the app. This will generate a new app.html file in the deploy directory. You can share a link to this file to distribute it and the contents of this file can be installed as a custom html app in Rally.
 
