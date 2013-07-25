@@ -87,6 +87,8 @@ You will need to (if you have not already done so) create accounts on github and
 
 - (1) Use the following command to build the app. This will generate a new app.html file in the deploy directory. You can share a link to this file to distribute it and the contents of this file can be installed as a custom html app in Rally.
 
+  rally-app-builder build
+
 ![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-11.png)
 
 - (2) Add the code to github
