@@ -5,7 +5,7 @@ A tutorial for creating a development environment for Rally Apps
 
 **Introduction**
 
-The purpose of this guide is to help you create a productive environment for developing and testing Rally apps. It is aimed at those who might not have a lot of development experience or are not a full time member of a development team.
+The purpose of this guide is to help you create a productive environment for developing and testing Rally apps. It is aimed at those who might not have a lot of development experience or are not a full time member of a development team.  While following the steps of the instructions, refer to referenced screen shots for details.
 
 **Principles**
 
@@ -43,20 +43,24 @@ You will need to (if you have not already done so) create accounts on github and
 
 ![github project](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_6_13_1_59_PM.png)
 
-- (3) Select the project, and click "Clone To Edit"
+- (3) Select the project, and click "Clone To Edit", and select the project type "Custom".
 
 ![clone project](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_6_13_1_59_PM-1.png)
 
-- (4) When the project is created, click "Begin Editing" to open the project.
+- (4) When the project is created, click "Start Editing" to open the project.  Note that it may take several seconds for the "Start Editing" button to show up.
 
 **[3] Rally-App-Builder**
 -------------------------
 
 - (1) rally-app-builder is installed directly into your Cloud9 project workspace using node. From the "Terminal" window in your project type the following command.
 
+ npm install -g rally-app-builder 
+
 ![node install rally-app-builder](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-7.png)
 
-- (2) Once installed you initialize your Rally app with the following command 
+- (2) Once installed you initialize your Rally app with the following command
+
+rally-app-builder init <enter your repository name here>
 
 ![init rally-app-builder](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-9.png)
 
@@ -69,6 +73,16 @@ You will need to (if you have not already done so) create accounts on github and
 ----------------------------------------------
 
 - (1) Edit App.js file, the sample below will add a button to your app.
+
+items : [
+        {
+            xtype: 'rallybutton',
+            text: 'Click me',
+            handler: function() {
+                Ext.Msg.alert('Button', 'You clicked me');
+            }
+        }
+    ],
 
 ![code changes](https://raw.github.com/wrackzone/rally-app-development/master/img/Screenshot_7_3_13_2_52_PM.jpg)
 
@@ -87,19 +101,39 @@ You will need to (if you have not already done so) create accounts on github and
 
 - (1) Use the following command to build the app. This will generate a new app.html file in the deploy directory. You can share a link to this file to distribute it and the contents of this file can be installed as a custom html app in Rally.
 
-  rally-app-builder build
+rally-app-builder build
 
 ![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-11.png)
 
 - (2) Add the code to github
 
+git add . (note the dot after the word add)
+
 ![preview changes](https://raw.github.com/wrackzone/rally-app-development/master/img/git-add.jpg)
 
 - (3) Commit to github
 
+git commit . (note the dot after the word commit)
+
+Enter your commit comments, once you have done that, hit "ctrl-X", then "Y", and hit enter, and you shoudl get a commit acknowledgment similar to the message below:
+
+[master 63b18c7] this is a commit                                                                                                                              
+ 8 files changed, 135 insertions(+), 2 deletions(-)                                                                                                            
+ create mode 100644 .gitignore                                                                                                                                 
+ create mode 100644 App.js                                                                                                                                     
+ create mode 100644 LICENSE                                                                                                                                    
+ create mode 100644 app.css                                                                                                                                    
+ create mode 100644 config.json                                                                                                                                
+ create mode 100644 deploy/App-uncompressed.html                                                                                                               
+ create mode 100644 deploy/App.html
+
+
 ![commit changes](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-12.png)
 
 - (4) Push changes back to github repostiory
+
+git push
+
 
 ![push changes](https://raw.github.com/wrackzone/rally-app-development/master/img/my-first-app-13.png)
 
