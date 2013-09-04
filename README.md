@@ -9,7 +9,7 @@ The purpose of this guide is to help you create a productive environment for dev
 
 **Principles**
 
-- Comprehensive and collaborative source control in an environment that makes it easy to share and discovery your work.
+- Comprehensive and collaborative source control in an environment that makes it easy to share and discover your work.
 - Short feedback loops. Be able to test your app with real data immediately after making changes.
 - Minimal or no requirement to install software locally.
 - Consistent and standard approach.
